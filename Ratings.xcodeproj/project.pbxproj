@@ -16,7 +16,7 @@
 		8406A5DC20B36A8D001C3675 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8406A5DB20B36A8D001C3675 /* Player.swift */; };
 		8406A5DE20B36AD7001C3675 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8406A5DD20B36AD7001C3675 /* SampleData.swift */; };
 		8406A5E020B36F3B001C3675 /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8406A5DF20B36F3B001C3675 /* PlayerCell.swift */; };
-		8406A5E420B3AB8D001C3675 /* PlayerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8406A5E320B3AB8D001C3675 /* PlayerDetailsViewController.swift */; };
+		840CB25120B4D4B500E477BB /* PlayerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840CB25020B4D4B500E477BB /* PlayerDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +31,7 @@
 		8406A5DB20B36A8D001C3675 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		8406A5DD20B36AD7001C3675 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 		8406A5DF20B36F3B001C3675 /* PlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
-		8406A5E320B3AB8D001C3675 /* PlayerDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlayerDetailsViewController.swift; path = ../PlayerDetailsViewController.swift; sourceTree = "<group>"; };
+		840CB25020B4D4B500E477BB /* PlayerDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 		8406A5C420B35356001C3675 /* Ratings */ = {
 			isa = PBXGroup;
 			children = (
-				8406A5E320B3AB8D001C3675 /* PlayerDetailsViewController.swift */,
+				840CB25020B4D4B500E477BB /* PlayerDetailsViewController.swift */,
 				8406A5C520B35356001C3675 /* AppDelegate.swift */,
 				8406A5C720B35356001C3675 /* ViewController.swift */,
 				8406A5C920B35356001C3675 /* Main.storyboard */,
@@ -153,7 +153,7 @@
 				8406A5E020B36F3B001C3675 /* PlayerCell.swift in Sources */,
 				8406A5DC20B36A8D001C3675 /* Player.swift in Sources */,
 				8406A5C820B35356001C3675 /* ViewController.swift in Sources */,
-				8406A5E420B3AB8D001C3675 /* PlayerDetailsViewController.swift in Sources */,
+				840CB25120B4D4B500E477BB /* PlayerDetailsViewController.swift in Sources */,
 				8406A5C620B35356001C3675 /* AppDelegate.swift in Sources */,
 				8406A5DE20B36AD7001C3675 /* SampleData.swift in Sources */,
 				8406A5DA20B36A06001C3675 /* PlayersViewController.swift in Sources */,
