@@ -27,6 +27,14 @@ class GamePickerViewController: UITableViewController {
       }
     }
   }
+  
+  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    guard segue.identifier == "SaveSelectedGame",
+      let cell = sender as? UITableViewCell,
+      let indexPath = tableView.indexPath(for: cell) else { return }
+    
+    selectedGame = games[indexPath.row]
+  }
 }
 
 extension GamePickerViewController {

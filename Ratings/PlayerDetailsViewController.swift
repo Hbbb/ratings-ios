@@ -14,9 +14,25 @@ class PlayerDetailsViewController: UITableViewController {
   
   var player: Player?
   
+  var game: String = "Fortnite" {
+    didSet {
+      detailLabel.text = game
+    }
+  }
+  
   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     if segue.identifier == "SavePlayerDetail", let playerName = nameTextField.text {
       player = Player(name: playerName, game: "New Game", rating: 2)
+    }
+  }
+}
+
+// MARK: - IBActions
+extension PlayerDetailsViewController {
+  @IBAction func unwindWithSelectedGame(segue: UIStoryboardSegue) {
+    if let gamePickerViewController = segue.source as? GamePickerViewController,
+      let selectedGame = gamePickerViewController.selectedGame {
+      game = selectedGame
     }
   }
 }
