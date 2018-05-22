@@ -12,6 +12,11 @@
 		8406A5CB20B35356001C3675 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8406A5C920B35356001C3675 /* Main.storyboard */; };
 		8406A5CD20B35358001C3675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8406A5CC20B35358001C3675 /* Assets.xcassets */; };
 		8406A5D020B35358001C3675 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8406A5CE20B35358001C3675 /* LaunchScreen.storyboard */; };
+		8406A5DA20B36A06001C3675 /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8406A5D920B36A06001C3675 /* PlayersViewController.swift */; };
+		8406A5DC20B36A8D001C3675 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8406A5DB20B36A8D001C3675 /* Player.swift */; };
+		8406A5DE20B36AD7001C3675 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8406A5DD20B36AD7001C3675 /* SampleData.swift */; };
+		8406A5E020B36F3B001C3675 /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8406A5DF20B36F3B001C3675 /* PlayerCell.swift */; };
+		8406A5E420B3AB8D001C3675 /* PlayerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8406A5E320B3AB8D001C3675 /* PlayerDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		8406A5CC20B35358001C3675 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8406A5CF20B35358001C3675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8406A5D120B35358001C3675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8406A5D920B36A06001C3675 /* PlayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
+		8406A5DB20B36A8D001C3675 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		8406A5DD20B36AD7001C3675 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		8406A5DF20B36F3B001C3675 /* PlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
+		8406A5E320B3AB8D001C3675 /* PlayerDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlayerDetailsViewController.swift; path = ../PlayerDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +64,14 @@
 		8406A5C420B35356001C3675 /* Ratings */ = {
 			isa = PBXGroup;
 			children = (
+				8406A5E320B3AB8D001C3675 /* PlayerDetailsViewController.swift */,
 				8406A5C520B35356001C3675 /* AppDelegate.swift */,
 				8406A5C720B35356001C3675 /* ViewController.swift */,
 				8406A5C920B35356001C3675 /* Main.storyboard */,
+				8406A5DF20B36F3B001C3675 /* PlayerCell.swift */,
+				8406A5D920B36A06001C3675 /* PlayersViewController.swift */,
+				8406A5DB20B36A8D001C3675 /* Player.swift */,
+				8406A5DD20B36AD7001C3675 /* SampleData.swift */,
 				8406A5CC20B35358001C3675 /* Assets.xcassets */,
 				8406A5CE20B35358001C3675 /* LaunchScreen.storyboard */,
 				8406A5D120B35358001C3675 /* Info.plist */,
@@ -135,8 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8406A5E020B36F3B001C3675 /* PlayerCell.swift in Sources */,
+				8406A5DC20B36A8D001C3675 /* Player.swift in Sources */,
 				8406A5C820B35356001C3675 /* ViewController.swift in Sources */,
+				8406A5E420B3AB8D001C3675 /* PlayerDetailsViewController.swift in Sources */,
 				8406A5C620B35356001C3675 /* AppDelegate.swift in Sources */,
+				8406A5DE20B36AD7001C3675 /* SampleData.swift in Sources */,
+				8406A5DA20B36A06001C3675 /* PlayersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +309,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.steezydanks.Ratings;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -306,7 +326,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.steezydanks.Ratings;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
