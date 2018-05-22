@@ -24,6 +24,11 @@ class PlayerDetailsViewController: UITableViewController {
     if segue.identifier == "SavePlayerDetail", let playerName = nameTextField.text {
       player = Player(name: playerName, game: game, rating: 2)
     }
+    
+    if segue.identifier == "PickGame",
+      let gamePickerViewController = segue.destination as? GamePickerViewController {
+      gamePickerViewController.selectedGame = game
+    }
   }
 }
 
