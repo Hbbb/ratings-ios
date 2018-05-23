@@ -16,4 +16,14 @@ final class SampleData {
       Player(name: "Vladimir", game: "World Domination", rating: 5)
     ]
   }
+  
+  static func generateRatings() -> [String] {
+    return [
+      "1 Star",
+      "2 Stars",
+      "3 Stars",
+      "4 Stars",
+      "5 Stars"
+    ]
+  }
 }
