@@ -10,16 +10,16 @@ import UIKit
 
 class PlayersViewController: UITableViewController {
   var players = SampleData.generatePlayerData()
-  
+
   override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     return players.count
   }
-  
+
   override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     let cell = tableView.dequeueReusableCell(withIdentifier: "PlayerCell", for: indexPath) as! PlayerCell
-    
+
     cell.player = players[indexPath.row]
-    
+
     return cell
   }
 }

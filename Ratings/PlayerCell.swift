@@ -27,13 +27,4 @@ class PlayerCell: UITableViewCell {
     let imageName = "\(rating)Stars"
     return UIImage(named: imageName)
   }
-
-  override func awakeFromNib() {
-    super.awakeFromNib()
-  }
-
-  override func setSelected(_ selected: Bool, animated: Bool) {
-    super.setSelected(selected, animated: animated)
-  }
-
 }
