@@ -18,6 +18,7 @@
 		8406A5E020B36F3B001C3675 /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8406A5DF20B36F3B001C3675 /* PlayerCell.swift */; };
 		840CB25120B4D4B500E477BB /* PlayerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840CB25020B4D4B500E477BB /* PlayerDetailsViewController.swift */; };
 		840CB25320B4D62B00E477BB /* GamePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840CB25220B4D62B00E477BB /* GamePickerViewController.swift */; };
+		840CB25620B4E58100E477BB /* Players.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840CB25420B4E58100E477BB /* Players.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		8406A5DF20B36F3B001C3675 /* PlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
 		840CB25020B4D4B500E477BB /* PlayerDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailsViewController.swift; sourceTree = "<group>"; };
 		840CB25220B4D62B00E477BB /* GamePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePickerViewController.swift; sourceTree = "<group>"; };
+		840CB25520B4E58100E477BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Ratings/Base.lproj/Players.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,11 +68,12 @@
 		8406A5C420B35356001C3675 /* Ratings */ = {
 			isa = PBXGroup;
 			children = (
+				840CB25420B4E58100E477BB /* Players.storyboard */,
+				8406A5C920B35356001C3675 /* Main.storyboard */,
 				840CB25020B4D4B500E477BB /* PlayerDetailsViewController.swift */,
 				840CB25220B4D62B00E477BB /* GamePickerViewController.swift */,
 				8406A5C520B35356001C3675 /* AppDelegate.swift */,
 				8406A5C720B35356001C3675 /* ViewController.swift */,
-				8406A5C920B35356001C3675 /* Main.storyboard */,
 				8406A5DF20B36F3B001C3675 /* PlayerCell.swift */,
 				8406A5D920B36A06001C3675 /* PlayersViewController.swift */,
 				8406A5DB20B36A8D001C3675 /* Player.swift */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8406A5D020B35358001C3675 /* LaunchScreen.storyboard in Resources */,
+				840CB25620B4E58100E477BB /* Players.storyboard in Resources */,
 				8406A5CD20B35358001C3675 /* Assets.xcassets in Resources */,
 				8406A5CB20B35356001C3675 /* Main.storyboard in Resources */,
 			);
@@ -181,6 +185,14 @@
 				8406A5CF20B35358001C3675 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		840CB25420B4E58100E477BB /* Players.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840CB25520B4E58100E477BB /* Base */,
+			);
+			name = Players.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
