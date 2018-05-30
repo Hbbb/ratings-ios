@@ -68,6 +68,7 @@
                                     <outlet property="gameLabel" destination="Yhy-9q-LVy" id="wY6-Hk-hQH"/>
                                     <outlet property="nameLabel" destination="inJ-kN-wv1" id="VfO-8n-9wh"/>
                                     <outlet property="ratingImageView" destination="sBM-45-utg" id="n6f-tT-mdv"/>
+                                    <segue destination="GSn-Nn-xsl" kind="presentation" identifier="EditPlayer" id="tSh-gG-QKE"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -97,7 +98,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <pickerView key="tableFooterView" contentMode="scaleToFill" id="nJo-Tk-Mjp">
-                            <rect key="frame" x="0.0" y="198" width="375" height="99"/>
+                            <rect key="frame" x="0.0" y="197.5" width="375" height="99"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                         </pickerView>
                         <sections>
@@ -264,4 +265,7 @@
     <resources>
         <image name="Players" width="30" height="30"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="dQv-m8-X4p"/>
+    </inferredMetricsTieBreakers>
 </document>

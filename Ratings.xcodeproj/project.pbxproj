@@ -70,12 +70,12 @@
 			children = (
 				840CB25420B4E58100E477BB /* Players.storyboard */,
 				8406A5C920B35356001C3675 /* Main.storyboard */,
-				840CB25020B4D4B500E477BB /* PlayerDetailsViewController.swift */,
 				840CB25220B4D62B00E477BB /* GamePickerViewController.swift */,
 				8406A5C520B35356001C3675 /* AppDelegate.swift */,
 				8406A5C720B35356001C3675 /* ViewController.swift */,
 				8406A5DF20B36F3B001C3675 /* PlayerCell.swift */,
 				8406A5D920B36A06001C3675 /* PlayersViewController.swift */,
+				840CB25020B4D4B500E477BB /* PlayerDetailsViewController.swift */,
 				8406A5DB20B36A8D001C3675 /* Player.swift */,
 				8406A5DD20B36AD7001C3675 /* SampleData.swift */,
 				8406A5CC20B35358001C3675 /* Assets.xcassets */,

@@ -13,8 +13,8 @@ class PlayerDetailsViewController: UITableViewController, UIPickerViewDataSource
   @IBOutlet weak var detailLabel: UILabel!
   @IBOutlet weak var ratingPicker: UIPickerView!
   
-  var ratingData: [String] = SampleData.generateRatings()
-  var rating: Int = 1
+  var ratingData = SampleData.generateRatings()
+  var rating = 1
   var player: Player?
   
   var game: String = "Fortnite" {
@@ -26,6 +26,7 @@ class PlayerDetailsViewController: UITableViewController, UIPickerViewDataSource
   override func viewDidLoad() {
     ratingPicker.delegate = self
     ratingPicker.dataSource = self
+    
     super.viewDidLoad()
   }
   
